@@ -5,7 +5,7 @@ function changeHeading() {
         document.getElementById("heading").innerHTML = newHeading;
     }
 }
-
+s
 // Change background to a random color
 function changeBackground() {
     let randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, "0");

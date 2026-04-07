@@ -1,17 +1,29 @@
-
-.container{
-    height:50vh;
+*{  background-color: whitesmoke;
+   
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
     width: 40vw;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;    
     border: 1px solid black;
-    display :flex;
-    justify-content : center;
-    align-items:center;
-
+    background-color: aliceblue;
 
 }
-.container  button {
+.container label{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+.container input{
+    background-color: aliceblue;
+}
+.container h1{
+    background-color: aliceblue;
+}
+.container button{
     color: aqua;
     background-color: black;
     border-radius: 10px;
